@@ -1,11 +1,36 @@
 section {
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30vh;
 }
 section form {
   background-color: green;
+  border-radius: 2rem;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vh;
+}
+section form input {
+  width: 80%;
+  text-align: center;
+}
+section form button {
+  width: 80%;
+  border-radius: 50vw;
+  background-color: #abff2e;
+  height: 5vh;
+}
+section form button:hover {
+  background: rgb(171, 255, 46);
+  background: linear-gradient(51deg, rgb(171, 255, 46) 0%, rgb(238, 130, 238) 100%);
+  height: 6vh;
+  font-size: 120%;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
