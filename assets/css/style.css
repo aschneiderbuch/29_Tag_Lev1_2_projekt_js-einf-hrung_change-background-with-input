@@ -1,0 +1,11 @@
+section {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section form {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
