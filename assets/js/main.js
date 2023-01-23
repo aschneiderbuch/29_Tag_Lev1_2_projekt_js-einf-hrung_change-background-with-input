@@ -19,7 +19,6 @@ dann wird hintergrundfarbe verändert
 
 // Variable 
 let inputColor = document.querySelector("#inputColor");
-console.log("inputColor: " + inputColor.value);   // 
 
 let button = document.querySelector("#button");
 
@@ -32,6 +31,11 @@ button.addEventListener("click", farbWechsel);
 
 // function
 function farbWechsel() {
-    inputFarbVariationen
+    console.log("function startet und EventListern läuft");
+
+    inputFarbVariationen = inputColor.value
+    console.log("inputColor: " + inputColor.value);   
+
+    outputBody.style.backgroundColor = inputFarbVariationen
 }
 
